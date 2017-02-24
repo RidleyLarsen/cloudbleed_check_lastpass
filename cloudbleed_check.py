@@ -65,7 +65,7 @@ def main():
                 site_name = line if accounts[line] else None
                 if site_name not in compromised_sites:
                     compromised_sites.append(site_name)
-                    print "{0} was compromised.".format(site_name)
+                    print "{0} may have been compromised.".format(site_name)
             except KeyError:
                 pass
 
