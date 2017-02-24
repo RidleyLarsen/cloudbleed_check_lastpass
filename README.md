@@ -4,7 +4,11 @@ This is a script that is designed to help check your LastPass database for sites
 
 # Usage
 
-First, install the dependencies using `pip`.
+If you don't have `pip` (Python package manager) installed, you can install it with this command:
+
+    curl https://bootstrap.pypa.io/get-pip.py | python
+
+Install the dependencies using `pip`.
 
     pip install lastpass-python requests
 
